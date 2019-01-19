@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+body section  {
+    background: lightgrey;
+    border: 2px solid grey;
+    margin: 3rem;
+    padding: 2rem;
+    background-image: url(/images/batidora.jpeg);
+    background-repeat: no-repeat;
+    background-position: 40px 60px;
+    background-size: 8rem 8rem;
+    box-shadow: 5px 5px 20px grey;
+
+}
+
+body section p {
+    margin-left: 30%;
+
+}
+
+body section h1 {
+    margin-left: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+body section button {
+    margin-left: 30%;
+    color: white;
+    background-color: blue;
+    font-size: 1.5rem;
+    border:hidden;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+.dos  {
+    background: lightgrey;
+    border: 2px solid grey;
+    margin: 3rem;
+    padding: 2rem;
+    background-image: url(/images/batidora.jpeg);
+    background-repeat: no-repeat;
+    background-position: 40px 60px;
+    background-size: 110px 110px;
+    
+
+}

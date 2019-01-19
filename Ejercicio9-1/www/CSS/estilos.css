@@ -1,0 +1,38 @@
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+body section {
+    background: white;
+    width: 70%;
+    min-width: 400px;
+    max-width: 800px;
+    margin:0 auto;
+    padding: 1rem;
+}
+
+body section h1 {
+    margin: 0;
+    padding: 1rem 0 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+body section p {
+    line-height: 1.6;
+}
+
+body section figure {
+    margin:0;
+    padding: 0;
+    max-width: 600px;
+    
+}
+
+body section figure img {
+    width: 100%;
+    max-width: 100%;
+
+}

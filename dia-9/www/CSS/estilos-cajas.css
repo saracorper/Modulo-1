@@ -1,0 +1,35 @@
+.uno {
+    background: goldenrod;
+    margin-bottom: 50px;
+}
+
+.dos {
+    margin-top: 50px;
+    background: lightcyan;
+    width: 20rem;
+    height: 50%; 
+    /* las alturas en porcentaje no tienen efecto */
+    padding: 70px;
+    padding-bottom: 20px;
+    border: 10px solid blue;
+}
+
+.dos span {
+    background: lightpink;
+}
+
+header{
+    background: lightgreen;
+    padding: 1rem;
+    border:20px solid red;
+
+}
+
+header h1 {
+    background: rebeccapurple;
+    color: white;
+    margin: 0 auto;
+    width: 40%;
+    height: 300px;
+
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: white;
+}
+
+.container {
+    background: rebeccapurple;
+    width: 400px;
+    color: white;
+    margin-right: 1rem;
+    min-height: 100vh;
+}
+
+.lista {
+    margin: 0;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.lista li {
+    background: yellow;
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
+}

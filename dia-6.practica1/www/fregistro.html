@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formulario para ponerse en contacto y participar en el video de gatos">
+    <title>Fregistro</title>
+</head>
+<body>
+    <header>
+        <h1>Que puedes encontrar?</h1>
+             <ul>
+                <li><a href="/estadisticas.html">Estadisticas</a></li>
+                <li><a href="/fotos-videos.html">Galeria </a></li>
+                <li><a href="/index.html">Inicio</a></li>
+            </ul>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <p>Cubriendo este formulario, ademas de contactar conmigo, tambien podreis aportar una foto divertida de vuestra mascota gatuna para la creación del video semanal de gatos divertidos. Animaos!!</p>
+        </section>
+    </header>
+    <section>
+        <form action="/fregistro.html" method="Get">
+            <fieldset>
+                    <legend>Nombre y apellidos</legend>
+    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required> 
+    
+                    <label for="apellidos">Apellidos</label>
+                    <input type="search" name="apellidos" id="apellidos" required>
+    
+            </fieldset>
+            <fieldset>
+
+                    <legend>Datos personales</legend>
+    
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id id="edad" required min="18" max="120" step="10" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    
+            </fieldset>
+            <fieldset>
+                    <legend>Provincia</legend>
+                    <ul>
+                        <li>
+                            <label for="lugo">Lugo</label>
+                            <input type="radio" name="provincia" value="lugo" id="lugo">
+                        </li>
+    
+                        <li>
+                            <label for="a coruña">A Coruña</label>
+                            <input type="radio" name="provincia" value="a coruña" id="a coruña">
+                        </li>
+    
+                        <li>
+                            <label for="pontevedra">Pontevedra</label>
+                            <input type="radio" name="provincia" value="pontevedra" id="pontevedra">
+                        </li>
+                        <li>
+                                <label for="orense">Orense</label>
+                                <input type="radio" name="provincia" value="orense" id="orense">
+                            </li>
+                    </ul>
+            </fieldset>
+            <fieldset>
+
+                    <legend>Datos de mascota</legend>
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required> 
+
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo" id="sexo">
+                        <option value="macho">Macho</option>
+                        <option value="hembra">Hembra</option>
+                        <option value="otro"></option>
+                    </select>
+
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id id="edad" required min="18" max="25" step="1" required>
+                    
+            </fieldset>
+            <fieldset>
+
+                <label for="foto">foto</label>
+                <input type="file" name="foto" id="foto">
+
+            </fieldset>
+            <fieldset>
+
+                    <label for="newsletter">Recibir newsletter?</label>
+                    <input type="checkbox" name="newsletter" id="newsletter" checked>
+            </fieldset>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </section>
+    
+</body>
+</html>

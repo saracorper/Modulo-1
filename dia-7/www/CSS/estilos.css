@@ -1,0 +1,59 @@
+
+h1 {
+    color: yellow;
+    background: rebeccapurple;
+}
+
+/*selectores simples*/
+
+[data-hackabos] {
+    text-decoration: underline
+}
+
+[data-hackabos="3"] {
+    color: red;
+}
+/* De los dos datas, este es el mas especifico */
+
+[data-etiquetas~="CSS"]{
+    font-size: 2rem;
+}
+/* selecciona todos los elementos que tengan en valor CSS */
+
+li[data-nombre^="Sa"] {
+    color: green;
+    font-weight: bold;
+}
+
+li[data-nombre$="ta"] {
+    color: blue;
+    font-size: 1.5rem;
+}
+li[data-nombre*="it"]{
+    text-decoration: undeline;
+}
+/*El primer li[data] selecciona todos los elementos que tengan en valor las primeras letras nombrdas, el segundo las ultimas y el tercero cualquier letra*/
+
+.parrafo {
+    background: lightgray;
+}
+
+p.parrafo {
+    background: lightgrey;
+ }
+ /* selecciona todos los parrafos con la clase parrafo */
+
+ #interior {
+     background: green;
+ }
+ .verde {
+     text-decoration: underline;
+ }
+
+ /* Selectores por atributo */
+ 
+ blockquote[lang] {
+     background: blue;
+} 
+/* Afecta a los blockquote que tengan el atributo lang, si no a todos los hijos lang de un blockquote */
+

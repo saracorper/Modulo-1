@@ -1,0 +1,55 @@
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: lightgrey;
+}
+
+h1,
+p {
+margin: 0;
+}
+
+h1 {
+    background: orange;
+
+}
+
+p {
+    background: blue;
+    color: white;
+    font-size: 0.8rem;
+}
+
+ p strong {
+     background: white;
+     color: black;
+     position: relative;
+ }
+
+p strong span {
+     background: green;
+     color: white;
+     position: absolute;
+     top:16px;
+     left:0px;
+     font-size: 0,8rem;
+     display:none;
+}
+
+p strong:hover span {
+    display:inline;
+}
+ 
+@media (max-width:600px) {
+    h1 {
+        background: green;
+    }
+}
+/* cambia el color del fondo de h1 segun el maximo hancho de la pantalla */
+
+@media (min-width:1000px) {
+    html{
+        font-size: 32px;
+    }
+}

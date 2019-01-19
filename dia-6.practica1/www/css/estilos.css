@@ -1,0 +1,120 @@
+/*
+html {
+    font-size: 16 px;
+    background: rgba(245, 239, 239, 0.5);
+}
+
+body > header {
+
+}
+
+body > header > h1{
+    color:rgb(66, 69, 82);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight:bold;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    text-decoration:none;
+    text-shadow: 4px -4px 5px rgb(0,0,0,0.5);
+
+    background: rgb(250, 251, 252);
+    
+    height: 30px;
+    padding: 7px;
+    margin-bottom: 10rem;
+    padding-right: 10rem;
+
+
+
+}
+
+body > header {
+    border: 7px solid rgb(114, 116, 119);
+    margin-bottom: 5px;
+}
+
+h2  {
+    color: rgb(42, 43, 42);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+#posts {
+    border: 7px solid rgb(114, 116, 119);
+    
+}
+
+#links {
+    border: 7px solid rgb(114, 116, 119);
+    margin-top: 5px;
+}
+
+.footer {
+    border: 7px solid rgb(114, 116, 119);
+    margin-top: 5px;
+}
+
+.especial{
+    text-align: right;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+nav li a {
+    color:rgb(42, 43, 42);
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+p {
+    color: rgb(12, 11, 11);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+nav ul {
+    padding-left: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    list-style-position: inside;
+    list-style-image: url(/media/botongato.png)
+}
+
+a{
+    pading:10px;
+    background: rgb(147, 158, 161);
+    display: inline-block;
+    margin:5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+a:visited {
+    color: rebeccapurple;
+
+}
+
+a:hover {
+    color:red;
+    background: lightcoral;
+    color: white;
+}
+
+a:focus {
+    border: 5px dotted green;
+}
+
+a:active {
+
+}

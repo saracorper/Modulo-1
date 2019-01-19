@@ -1,0 +1,14 @@
+body {
+    color: green;
+    font-style: italic;
+}
+
+header nav li:first-child a {
+    color: inherit;
+}
+/* forzar la herencia */
+
+header nav li:last-child a {
+    color: initial;
+}
+/* cancelar herencia */

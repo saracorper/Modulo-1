@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios de contacto</h1>
+        <nav>
+            <ul>
+                    <li><a href="/multimedia.html">Audio y video</a></li>
+                    <li><a href="/index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="/formularios.html" method="GET">
+            <fieldset>
+                <legend>Nombre y apellidos</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" value="Sara" disabled> <!--readonly tambien vale-->
+
+                <label for="apellidos">Apellidos</label>
+                <input type="search" name="apellidos" id="apellidos" placeholder="Aqui el apellido">
+
+            </fieldset>
+            <fieldset>
+
+                <legend>Datos personales</legend>
+
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id id="edad" required min="18" max="120" step="10"> <!--dato requerido-->
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><!--detecta si falta una @-->
+
+                <label for="comida">Comida favorita</label>
+                <select name="comida" id="comida">
+                    <optgroup label="vegetales">Vegetales
+                    
+                        <option value="patacas">Patatas</option>
+                        <option value="pimientos">Pimientos</option>
+                        <option value="grelos">Grelos</option>
+
+                    </optgroup>
+                    <optgroup label="carnes">Carnes
+
+                            <option value="cerdo">Cerdo</option>
+                            <option value="pollo">Pollo</option>
+                            <option value="ternera">Ternera</option>
+
+                    </optgroup>
+                    <option value="ninguna">Ninguna</option>
+
+                </select>
+            </fieldset>
+            <fieldset>
+
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password">
+
+            </fieldset>
+            <fieldset>
+
+                <label for="newsletter">Recibir newsletter?</label>
+                <input type="checkbox" name="newsletter" id="newsletter" checked>
+
+            </fieldset>
+            <fieldset>
+                <legend>Provincia</legend>
+                <ul>
+                    <li>
+                        <label for="lugo">Lugo</label>
+                        <input type="radio" name="provincia" value="lugo" id="lugo">
+                    </li>
+
+                    <li>
+                        <label for="a coruña">A Coruña</label>
+                        <input type="radio" name="provincia" value="a coruña" id="a coruña">
+                    </li>
+
+                    <li>
+                        <label for="pontevedra">Pontevedra</label>
+                        <input type="radio" name="provincia" value="pontevedra" id="pontevedra">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+
+                <legend>Mis movidas</legend>
+                <textarea rows="10" cols="40"></textarea>
+
+                <p>
+                    <label for="foto">Sube tu foto</label>
+                    <input type="file" name="foto" id="foto">
+                </p>
+
+                <p>
+                    <label for="gasolina">Cuanta gasolina tiene tu coche?</label>
+                    <input type="range" name="gasolina" id="gasolina" min="0" max="100" step ="10" value="0">
+                </p>
+
+                <p>
+                    <label for="cumpleaños">Cando naciche?</label>
+                    <input type="date" name="cumpleaños" id="cumpleaños" min="2018-12-31" max="2018-01-01">
+                </p>
+
+                <p>
+                        <label for="color">Color favorito</label>
+                        <input type="color" name="color" id="color">
+                </p>
+            </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <button type="button">No hace nada</button>
+
+        </form>
+
+    </section>
+    
+</body>
+</html>

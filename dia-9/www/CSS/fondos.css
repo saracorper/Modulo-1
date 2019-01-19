@@ -1,0 +1,45 @@
+body {
+    background-color: lightpink;
+}
+
+header {
+    background-color:rgba(0, 0,255, 0.5);
+    padding: 2rem;
+    margin: 2rem;
+    height: 400px;
+    background-image: url(/img/kittybien.png);
+    background-repeat:no-repeat;
+    background-position:50px 50px;
+    background-position: center center;
+    background-size: cover;
+    /* border: 10px solid green; */
+    border-width: 10px;
+    border-style: double;
+    border-color: blueviolet;
+    border-radius: 30px;
+    /* border-right-width: 10px;
+    border-right-color:greem; */
+    box-shadow: 10px 10px 20px rgb(128, 128, 128, 0.7);
+    
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin-bottom: 1rem;
+    border: 10px solid red;
+    padding: 10px;
+    border-radius: 20px 50px 30px 70px;
+
+}
+
+.div1 {
+    box-sizing:content-box;
+}
+/* importante */
+
+.div2 {
+    box-sizing: border-box; 
+}
+/* importante */

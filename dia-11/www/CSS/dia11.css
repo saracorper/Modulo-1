@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+} 
+ section {
+     max-width: 500px;
+     margin: 0 auto;
+     font-family: sans-serif;
+     background: lightgrey;
+     height: 3000px;
+}
+
+section p {
+    border-width: 5px;
+    border-style: solid;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+p.uno {
+    background: lightblue;
+    border-color: green;
+    /* position: relative;
+    top:10px; */
+    
+
+}
+
+p.dos {
+    background: lightcoral;
+    border-color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3; 
+    /* si en vez de absolute ponemos fixed, el elemento no respeta el scroll y se mantiene siempre en la misma posiccion */
+}
+
+p.tres {
+    background: lightsalmon;
+    border-color: orange;
+    /* position: relative;
+    top: -50px;
+    left: 10px;
+    z-index: 2; */
+}

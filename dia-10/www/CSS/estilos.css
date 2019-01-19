@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.container {
+    background: rebeccapurple;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    /* row/colunm/ +reverse */
+    height: 100vh;
+    width: 300px;
+    flex-wrap: wrap;
+    /* para que entren todos los hijos en el contenedor = wrap/nowrap */
+    justify-content: flex-start;
+    /* como alinear los hijos en el eje horizontal */
+    align-items: flex-start;
+    /* distribuir hijos de forma vertical */
+    align-content: center;
+    align-content: flex-start;
+    /* donde colocar el contenido  */
+    
+
+
+}
+
+.child {
+    background: yellow;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.child:nth-child(3) {
+    background: red;
+    order:0;
+    flex-basis: 100%;
+    /* Establece el tañano del hijo y luego redistribuye el espacio entr los demas hijos */
+    align-self: /*colocar un hijo en particular*/;
+}

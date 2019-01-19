@@ -1,0 +1,56 @@
+body {
+    margin:0;
+    display: flex;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    background: rebeccapurple;
+    margin:0.5rem;
+    padding: 0,5rem;
+    width: 50;
+    
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.section {
+    background: yellow;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section p {
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.lista ul {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    
+}
+
+.lista ul li {
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    background: pink;
+    
+}

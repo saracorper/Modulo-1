@@ -1,0 +1,43 @@
+body {
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.superior {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.superior > * {
+    width: 50%;
+}
+
+.superior figure img {
+    
+}
+
+.inferior {
+    background: lightgrey;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.inferior p {
+    padding: 0 2rem;
+}
+
+
+
+
+
